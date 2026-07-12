@@ -2,12 +2,14 @@
     padding-top: 188px;
     padding-bottom: 188px;
     background-color: #2E2F42;
-    background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.1), rgba(46, 47, 66, 0.1)),
-    url(../images/hero-gradient.png),
+    background-image:linear-gradient(to bottom,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
     url(../images/hero-bg.jpg);    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 1440px;
 }
 .hero-main-container{
     margin: auto;

@@ -38,8 +38,15 @@
     gap: 16px;
     margin-left: 120px;
 }
+.footer-social p{
+    font-weight: 500;
+}
+.footer-social .social-icons{
+    display: flex;
+    gap: 16px;
+}
 .footer-social .icon:hover,
 .footer-social .icon:focus {
     background-color: #404BBF;
-    color:#f4f4fd;
+    color:#31d0aa;
 }

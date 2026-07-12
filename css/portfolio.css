@@ -12,12 +12,20 @@
     flex-wrap: wrap;
     margin-top: 72px;
     }
-    .portfolio-wrapper{
-        position: relative;
-        overflow: hidden;
+.portfolio-list:hover{
+    box-shadow:
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
+
+.portfolio-wrapper{
+    position: relative;
+    overflow: hidden;
         
     }
-    .overlay {
+.overlay {
         position: absolute;
         top: 0;
         left:0;
@@ -29,13 +37,12 @@
         padding: 40px 32px;
         background-color: #4D5AE5;
         color: #F4F4FD;
-        background:linear-gradient #4D5AE5;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
-    .portfolio-wrapper .overlay {
+.portfolio-wrapper .overlay {
             color: #F4F4FD;
         }
-    .portfolio-list:hover .overlay{
+.portfolio-list:hover .overlay{
         transform: translateY(0);
         
     }
