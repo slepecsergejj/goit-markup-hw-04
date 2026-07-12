@@ -23,14 +23,11 @@
     width: calc((100% - 3*24px)/4);
 }
 .features-wrapper {
+    height: 112px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius:4px;
-}
-.features-icon {
-    height: 112px;
-    
 }
